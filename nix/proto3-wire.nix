@@ -1,3 +1,5 @@
+# Taken from https://github.com/awakesecurity/gRPC-haskell/blob/master/nix/proto3-wire.nix
+
 { mkDerivation, base, bytestring, cereal, containers, deepseq
 , doctest, fetchgit, hashable, QuickCheck, safe, stdenv, tasty
 , tasty-hunit, tasty-quickcheck, text, unordered-containers
@@ -6,7 +8,7 @@ mkDerivation {
   pname = "proto3-wire";
   version = "1.1.0";
   src = fetchgit {
-    url = "https://github.com/awakenetworks/proto3-wire.git";
+    url = "https://github.com/awakesecurity/proto3-wire.git";
     sha256 = "16l1rnnygwk1b2sb3l6klhr6ad0wvry204icxnc81c6rbzbk6rqc";
     rev = "4f355bbac895d577d8a28f567ab4380f042ccc24";
     fetchSubmodules = true;

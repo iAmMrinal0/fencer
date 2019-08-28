@@ -10,8 +10,8 @@ mkDerivation {
   src = fetchFromGitHub {
     owner = "awakesecurity";
     repo = "gRPC-haskell";
-    rev = "c83eacd1f30f20b0661fb651ad4234faf19c8160";
-    sha256 = "1l95rjrnsiy23gqmjxirqc4yn38nl94whq25dd6lgj44pgikd72n";
+    rev = "be70fc49b0dc25313f57d0e6c6ba2a9fa46b9e6b";
+    sha256 = "19ksm41w3yys2l0a4mfc2z5samrjvsiisr59b813gy1g2rzdqc17";
   };
   isLibrary = true;
   isExecutable = true;
